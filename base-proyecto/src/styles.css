@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #ffffff;
+  --accent: #0366d6;
+}
+
+body{
+  font-family: Inter, system-ui, Arial; 
+  background: var(--bg); 
+  margin: 0;
+}
+
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+
+
